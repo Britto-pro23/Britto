@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url("../fonts/SF-Pro-Display-Bold.otf") format("otf"),
+    url("../fonts/SF-Pro-Display-Heavy.otf") format("otf"),
+    url("../src/fonts/SF-Pro-Display-Light.otf") format("otf"),
+    url("../src/fonts/SF-Pro-Display-Ultralight.otf") format("otf"),
+    url("../src/fonts/SF-Pro-Display-Medium.otf") format("otf"),
+    url("../src/fonts/SF-Pro-Display-Regular.otf") format("otf"),
+    url("../src/fonts/SF-Pro-Display-Semibold.otf") format("otf"),
+    url("../src/fonts/SF-Pro-Display-Thin.otf") format("otf");
+}
+.head{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 0 !important;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.head-main{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 50px;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.banner-img{
+  width: 100%;
+  height:60%;
+  background-size: contain;
+}
+.typo-content{
+  font-size:10px !important;
+}
+.head-final{
+  background-color: #0BB2AE;
+}
+.head-final-1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.head-last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.head-last-img{
+  display: flex;
+  justify-content: space-evenly !important;
+  width: 100%;
+}
+.head-last-img img{
+  
+  width: 100px;
+  
+}

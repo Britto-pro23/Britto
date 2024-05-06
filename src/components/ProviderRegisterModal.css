@@ -1,0 +1,15 @@
+.pass{
+  opacity: 1;
+  color: rgba(135, 141, 148, 1);
+  font-family: "SFProDisplay-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: Regular;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 20px;
+}
+.MuiAutocomplete-popupIndicator {
+  margin-right: -10px;
+  margin-bottom: 3px; /* Adjust the margin as needed */
+}

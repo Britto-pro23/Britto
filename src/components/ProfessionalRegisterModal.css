@@ -1,0 +1,11 @@
+.otpdesc {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  font-family: "SFProDisplay-Regular";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: Regular;
+  letter-spacing: 0.10px;
+  text-align: center;
+  line-height: 21px;
+}
